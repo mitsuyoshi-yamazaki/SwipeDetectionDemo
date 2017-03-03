@@ -9,17 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
+  @IBOutlet fileprivate weak var detectionView: ForceTouchDetectionView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
 }
 
+class ForceTouchDetectionView: UIView {
+  
+  // MARK: - UIControl Events
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    print(#function)
+  }
+  
+  override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    print(#function)
+  }
+  
+  override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    print(#function)
+  }
+  
+  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    print(#function)
+  }
+}
