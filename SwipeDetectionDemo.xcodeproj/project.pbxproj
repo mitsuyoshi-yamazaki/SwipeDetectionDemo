@@ -410,6 +410,7 @@
 				ED5D64601E695AF8006484AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED5D64611E695AF8006484AF /* Build configuration list for PBXNativeTarget "SwipeDetectionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				ED5D64631E695AF8006484AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
